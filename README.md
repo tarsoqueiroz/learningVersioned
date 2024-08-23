@@ -59,3 +59,49 @@ git commit -m "Final tasks for version 1"
 git push origin version-1
 ```
 
+Create a new branch:
+
+```sh
+git checkout -b version-2
+```
+
+
+## Version 2.00
+
+Create a new branch:
+
+```sh
+git checkout -b version-2.00
+```
+
+Simple tasks to populate `version-2.00` branch:
+
+```sh
+echo "version-2.00" > version-2.00.txt
+```
+
+And update this version:
+
+```sh
+git add .
+git commit -m "Final tasks for version 2.00"
+git push origin version-2.00
+```
+
+### Final considerations
+
+You can navigate on branchs by:
+
+```sh
+git checkout version-0.00 
+# or
+git checkout version-1.00 
+# or
+git checkout version-2.00 
+```
+
+## That's all
+
+...folks!!!
+
+
