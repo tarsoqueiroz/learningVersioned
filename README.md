@@ -43,3 +43,19 @@ Create a new branch:
 git checkout -b version-1
 ```
 
+## Version 1
+
+Simple tasks to populate `version-1` branch:
+
+```sh
+echo "version 1" > version-1.txt
+```
+
+And update this version:
+
+```sh
+git add .
+git commit -m "Final tasks for version 1"
+git push origin version-1
+```
+
